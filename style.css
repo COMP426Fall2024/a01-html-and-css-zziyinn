@@ -41,8 +41,20 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
+
+.select {
+    background-color: rgb(255, 255, 255);
+    color:rgb(87, 30, 30);
+    height:6vh;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
 .news {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(105, 3, 3);
     color:rgb(87, 30, 30);
     height:95vh;
     background-image: url(images/banner.png);
@@ -81,6 +93,15 @@ header a:hover {
     border-radius: 5px;
     display: inline-block; 
     font-size: 24px
+}
+
+.news a:hover {
+    color: rgb(209, 108, 45);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block; 
+    font-size: 24px;
+    text-decoration: underline;
 }
 
 .story {
@@ -299,7 +320,7 @@ input:focus {
     outline: none; 
     border-color:#E0E9A3; 
 }
-footer {
+#main-footer {
     background-color:#000000;
     color:#B7B7B7;
     height:60px;
@@ -307,6 +328,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .menu {
     display:none;
